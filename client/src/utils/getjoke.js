@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 let API_ENDPOINT = 'https://official-joke-api.appspot.com/random_joke';
 
-let useFetchJoke = () => {
+export default function useFetchJoke() {
 
     let [randomJoke, setRandomJoke] = useState(null);
 
@@ -28,6 +28,3 @@ let useFetchJoke = () => {
 
     return randomJoke;
 }
-
-
-export default useFetchJoke;

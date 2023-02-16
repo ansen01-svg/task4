@@ -49,7 +49,6 @@ const HolderWrapper = styled.div`
     width: 100%;
     height: calc(100%);
     overflow-y: scroll;
-    // background: red;
 
     #failed_p {
         color: var(--hover_color);

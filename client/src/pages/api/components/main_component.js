@@ -92,7 +92,6 @@ const MainWrapper = styled.div`
     flex-direction: ${props => props.direction || 'column'};
     align-items: center;
     justify-content: center;
-    // margin: auto auto;
 `
 
 const ContentWrapper = styled.div`
@@ -112,7 +111,6 @@ const ButtonWrapper = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-    // background: red;
 `
 
 const SaveButton = styled(Button)`

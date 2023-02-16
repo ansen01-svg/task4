@@ -107,12 +107,9 @@ const Wrapper = styled.div`
 const MainWrapper = styled.div`
     width: 45%;
     height: 300px;
-    // width: calc(45% - 40px);
-    // height: calc(400px - 40px);
     background: var(--hover_color);
     margin-top: 20%;
     margin-left: 27%;
-    // background: green;
 `
 
 const ContentWrapper = styled.div`
@@ -124,7 +121,6 @@ const ContentWrapper = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-    // background: red;
     position: relative;
 `
 
@@ -151,14 +147,11 @@ const Form = styled.form`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // background: yellow;
 
     input {
         width: 30%;
         height: 40px;
         padding-left: 10px;
-        // border: none;
-        // outline: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;

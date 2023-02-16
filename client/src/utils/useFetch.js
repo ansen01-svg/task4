@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 let API_ENDPOINT = 'http://localhost:5001/apis/v1/jokes/allJokes'
 
-let useFetch = () => {
+export default function useFetch() {
 
     let [isLoading, setIsLoading] = useState(false);
     let [isError, setError] = useState({ error: false, msg : '' });
@@ -18,7 +18,6 @@ let useFetch = () => {
 
             if (data) {
                 setJokes(data.data)
-                // setJokes([])
             } else {
                 setError({ error: true, msg: data.Error })
             }
@@ -35,6 +34,3 @@ let useFetch = () => {
 
     return { isLoading, isError, jokes };
 }
-
-
-export default useFetch;

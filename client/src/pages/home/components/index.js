@@ -47,7 +47,6 @@ const HomeWrapper = styled.div`
     padding-top: 30px;
     display: flex;
     justify-content: center;
-    // background: yellow;
 `
 
 const ContentWrapper = styled.div`
@@ -58,7 +57,6 @@ const ContentWrapper = styled.div`
     align-items: center;
     justify-content: center;
     gap: 30px;
-    // background: red;
 `
 
 
